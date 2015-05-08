@@ -10,18 +10,10 @@ public:
     Population();
     ~Population();
 
-    void push(const Chromosme c) {
-        array[size++] = c;
-    }
-
-    Chromosme * get(int &s) {
-        s = size;
-        return array;
-    }
 
 private:
     int size;
-    Chromosme array[POPULATION_SIZE];
+
 };
 
 #endif // POPULATION_H
