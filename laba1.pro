@@ -16,9 +16,7 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    chromosme.cpp \
-    population.cpp
+    chromosme.cpp
 
 HEADERS += \
-    chromosome.h \
-    population.h
+    chromosome.h
